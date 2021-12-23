@@ -27,16 +27,16 @@ class field {
     askQuestion() {
         const answer = prompt("Which way? ").toUpperCase();
         switch (answer) {
-            case "U":
+            case "W":
                 this.Y -= 1;
                 break;
-            case "D":
+            case "S":
                 this.Y += 1;
                 break;
-            case "L":
+            case "A":
                 this.X -= 1;
                 break;
-            case "R":
+            case "D":
                 this.X += 1;
                 break;
             default:
