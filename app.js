@@ -1,5 +1,5 @@
 const prompt = require("prompt-sync")({ sigint: true });
-
+// gitpod
 const hat = "^";
 const hole = "O";
 const fieldCharacter = "░";
